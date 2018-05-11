@@ -1,0 +1,41 @@
+/*grid-style.css*/
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas: "header header" "nav nav" "section section " "aside aside" "footer footer ";
+  grid-gap: 0.5em 1em;
+}
+
+header {
+  background-color: red;
+  grid-area: header;
+}
+
+nav {
+  background-color: green;
+  grid-area: nav;
+}
+
+section {
+  grid-area: section;
+}
+
+article {
+  background-color: blue;
+  grid-area: article;
+
+}
+
+aside {
+  background-color: yellow;
+  grid-area: aside;
+
+}
+
+footer {
+  background-color: lime;
+  grid-area: footer;
+
+}

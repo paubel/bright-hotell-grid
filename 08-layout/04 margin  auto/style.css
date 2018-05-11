@@ -1,0 +1,12 @@
+div {
+  color: green;
+}
+
+span {
+  color: blue;
+}
+
+#main {
+  max-width: 600px;
+  margin: 0 auto;
+}

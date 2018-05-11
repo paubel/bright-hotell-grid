@@ -1,0 +1,17 @@
+/*
+Detta slipper du använda om dina CSS boxar blir fel bredd
+*/
+
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width: 10px;
+  border: 1px solid blue;
+}
