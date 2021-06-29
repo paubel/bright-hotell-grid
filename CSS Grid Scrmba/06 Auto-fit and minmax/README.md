@@ -1,2 +1,0 @@
-# Auto-fit and minmax
-
